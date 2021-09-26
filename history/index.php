@@ -14,7 +14,7 @@
 <body>
 
     <main class="container">
-        <h1>Cases</h1>
+        <h1>CASE HISTORY</h1>
         <?php include 'table.php'; ?>
 
     </main>

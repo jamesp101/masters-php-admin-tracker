@@ -20,6 +20,21 @@ else{
 
 }
 
+
+$insert = "INSERT INTO history " .
+    " (user_id, status, date_updated )" .
+    " VALUES " .
+    " ( '" . $data['id'] . "', '" . $data['status'] . "',  NOW() );";
+
+if ($conn->query($insert)) {
+    echo 'Updated!';
+} else {
+    echo $conn->error;
+    http_response_code(404);
+    die();
+}
+
+
 echo $query;
 
 

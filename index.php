@@ -12,9 +12,9 @@
 </head>
 
 <body>
-    <h1>LOGS</h1>
 
     <main class="container">
+        <h1>LOGS</h1>
         <?php include 'includes/table.php'; ?>
 
     </main>
