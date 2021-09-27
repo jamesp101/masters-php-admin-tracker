@@ -42,6 +42,7 @@ $users = $conn->query($query);
 <body>
 
 
+    <?php include __DIR__ . '/../includes/header.php' ?>
   <main class="container" x-data="dropdown">
 
     <div class="row">

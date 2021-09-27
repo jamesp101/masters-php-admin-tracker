@@ -13,9 +13,11 @@
 
 <body>
 
+    <?php include __DIR__ . '/../includes/header.php' ?>
+
     <main class="container">
         <h1>CASE HISTORY</h1>
-        <?php include 'table.php'; ?>
+        <?php include './table.php'; ?>
 
     </main>
 

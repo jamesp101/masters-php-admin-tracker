@@ -1,6 +1,6 @@
 
 <?php
 $database = "ctr_db";
-$user     = "james";
-$password = "123456";
+$user     = "root";
+$password = "";
 $host     = "localhost";

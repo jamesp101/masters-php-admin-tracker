@@ -13,6 +13,7 @@
 
 <body>
 
+    <?php include 'includes/header.php' ?>
     <main class="container">
         <h1>LOGS</h1>
         <?php include 'includes/table.php'; ?>

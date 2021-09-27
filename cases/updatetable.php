@@ -28,6 +28,8 @@ $users = $conn->query($query);
 
 
 
+    <?php include __DIR__ . '/../includes/header.php' ?>
+
 <!doctype html>
 <html lang="en">
 

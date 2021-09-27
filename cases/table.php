@@ -1,6 +1,6 @@
 <?php
-require __DIR__ . '/../connection.php';
 
+require __DIR__ . '/../connection.php';
 
 
 function set_query()
@@ -146,7 +146,7 @@ $data = $conn->query(
             <?php endwhile; ?>
             <tr>
                 <td>
-
+                            
                 <button type="submit"> Sumbit </button>
                 </td>
             </tr>

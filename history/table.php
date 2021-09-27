@@ -29,10 +29,8 @@ function set_query()
     ON
         history.user_id=personsqr_tbl.randomid";
 
-    if (
-        $_GET['search'] == null ||
-        $_GET['search'] == ''
-    ) {
+    
+    if (empty($_GET) ) {
         return $query;
     }
 
@@ -52,11 +50,12 @@ $data = $conn->query(
     $query
 );
 
+$value = isset($_GET['search']) ? $_GET['search'] : '';
 ?>
 
 
 <form action="" method="get">
-    <input type="text" name="search" class="form-control" placeholder="Search Person" value="<?php echo htmlspecialchars($_GET['search']); ?>">
+    <input type="text" name="search" class="form-control" placeholder="Search Person" value="<?php echo htmlspecialchars($value); ?>">
     <input type="submit" class="btn btn-primary my-4 right">
 </form>
 

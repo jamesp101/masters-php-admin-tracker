@@ -79,8 +79,6 @@ $data = $conn->query(
 
 
 
-<label for="">Search</label>
-<!-- <?php echo $query; ?> -->
 <table class="table table-striped">
     <thead>
         <form>
